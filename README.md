@@ -1,9 +1,6 @@
-# Variant_Identification_Applicaton___VIA___V2
-Isolates this to a conda environment.
+# Variant Identification Application (VIA) Version 2
 
-# Variant Identification Application (VIA)
-
-VIA automates the process of variant identification, analyzing family data and returning possible candidates based on a range of specific filters and models of inheritance.
+Isolates this to a conda environment. VIA automates the process of variant identification, analyzing family data and returning possible candidates based on a range of specific filters and models of inheritance.
 
 ## Application Pre-Requisites
 - Data Pre-Requisites
