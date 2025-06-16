@@ -46,4 +46,3 @@ dependencies:
   - xz=5.8.1=hbcc6ac9_1
   - xz-gpl-tools=5.8.1=hbcc6ac9_1
   - xz-tools=5.8.1=hb9d3cd8_1
-prefix: /path/removed/miniconda3/envs/VIA___Python3Point7
