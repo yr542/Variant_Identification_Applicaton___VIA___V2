@@ -170,6 +170,10 @@ Each of these filters are used to pull out candidate variants:
 
 ## Change Log
 
-### 0.1.x
-- 0.1.0: First release (06.11.2021)
-- 0.1.1: Updated to allow hemizygous HG38 X-linked calls (1:) and removed PopFreqMax for HG38 switch (01.20.2022)
+### Version 2 (Released June 2025)
+
+This is based on [ischrauwen-lab/variant-filtering](https://github.com/ischrauwen-lab/variant-filtering) which is a fork of [anthonyozerov/variant-filtering](https://github.com/anthonyozerov/variant-filtering). Effectively this is a fork, with minor changes. 
+* This fork has a docker hub repository available here [yr542/variant_identification_application_via](https://hub.docker.com/r/yr542/variant_identification_application_via).
+* The seventh docker image is placed as a container on Github as well.
+
+
