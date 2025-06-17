@@ -172,7 +172,8 @@ Each of these filters are used to pull out candidate variants:
 
 ### Version 2 (Released June 2025)
 
-This is based on [ischrauwen-lab/variant-filtering](https://github.com/ischrauwen-lab/variant-filtering) which is a fork of [anthonyozerov/variant-filtering](https://github.com/anthonyozerov/variant-filtering). Effectively this is a fork, with minor changes. 
+This is based on [ischrauwen-lab/variant-filtering](https://github.com/ischrauwen-lab/variant-filtering) which is a fork of [anthonyozerov/variant-filtering](https://github.com/anthonyozerov/variant-filtering). 
+* Effectively this is a fork of [ischrauwen-lab/variant-filtering](https://github.com/ischrauwen-lab/variant-filtering), with minor changes. 
 * This fork has a docker hub repository available here [yr542/variant_identification_application_via](https://hub.docker.com/r/yr542/variant_identification_application_via).
 * The seventh docker image is placed as a container on Github as well.
 
