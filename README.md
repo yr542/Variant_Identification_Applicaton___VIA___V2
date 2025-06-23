@@ -82,19 +82,19 @@ This file corresponds to the mapfile input. It should be the latest _phenotype_t
 
 The complete application can be run through main.py with the following command:
 
-```
+```Python
 python main.py
 ```
 
 For greater flexibility, there are also the following optional arguments:
-- **_--pedfile_ OR _-p_** : specify the absolute or relative path to the pedigree file. If no argument is specified, the application will look for a file named _Test_Ped.txt_ in the repository's directory
-- **_--data_  OR _-d_** : specify the absolute or relative path to the cleaned data file. If no argument is specified, the application will look for a file named _Test_cleaned.txt_ in the repository's directory
-- **_--output_ OR _-o_** : specify the file name (including extension and (optionally) the file path) for the ouput file. If no argument is specified, the application will name the output file _filtered.csv_ and place it in the repository's directory
-- **_--output_phen_ OR _-op_** : specify the file name (including extension and (optionally) the file path) for the output file when additional phenotype filtering is performed. If no argument is specified, the application will name the output file _filtered_phen.csv_ and place it in the repository's directory
-- **_--family_ OR _-f_** : specify a certain family to output an individual csv file for. The default behaviour is to produce a single output file with variants for all families.
-- **_--phenfile_ or _-ph_** : specify the absolute or relative path to the phenotype file. If no argument is specified, the application will look for a file named _Test_Phen.txt_ in the repository's directory
-- **_--mapfile_ or _-m_** : specify the absolute or relative path to the phenotype-to-gene mapping file. If no argument is specified, the application will look for a file named _phenotype_to_genes.txt_ in the repository's directory. If no such file exists, the user is be prompted to download one.
-- **_--nophen_**: specify that no phenotype filtering will be performed.
+- **_`--pedfile`_ OR _`-p`_** : specify the absolute or relative path to the pedigree file. If no argument is specified, the application will look for a file named _Test_Ped.txt_ in the repository's directory
+- **_`--data`_  OR _`-d`_** : specify the absolute or relative path to the cleaned data file. If no argument is specified, the application will look for a file named _Test_cleaned.txt_ in the repository's directory
+- **_`--output`_ OR _`-o`_** : specify the file name (including extension and (optionally) the file path) for the ouput file. If no argument is specified, the application will name the output file _filtered.csv_ and place it in the repository's directory
+- **_`--output_phen`_ OR _`-op`_** : specify the file name (including extension and (optionally) the file path) for the output file when additional phenotype filtering is performed. If no argument is specified, the application will name the output file _filtered_phen.csv_ and place it in the repository's directory
+- **_`--family`_ OR _`-f`_** : specify a certain family to output an individual csv file for. The default behaviour is to produce a single output file with variants for all families.
+- **_`--phenfile`_ or _`-ph`_** : specify the absolute or relative path to the phenotype file. If no argument is specified, the application will look for a file named _Test_Phen.txt_ in the repository's directory
+- **_`--mapfile`_ or _`-m`_** : specify the absolute or relative path to the phenotype-to-gene mapping file. If no argument is specified, the application will look for a file named _phenotype_to_genes.txt_ in the repository's directory. If no such file exists, the user is be prompted to download one.
+- **_`--nophen`_**: specify that no phenotype filtering will be performed.
 
 Any combination of these arguments can be used, and they can be chained together. For example, using all five would look like:
 
