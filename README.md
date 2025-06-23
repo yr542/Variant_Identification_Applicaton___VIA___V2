@@ -4,7 +4,7 @@ Isolates this to a conda environment. VIA automates the process of variant ident
 
 ## Application Pre-Requisites
 - Data Pre-Requisites
-  - cleaned data file (output of Mendelian_filtering_WORK.Rmd)
+  - cleaned data file (output of Mendelian_filtering_WORK.Rmd) manually edited. We refer to this as the post processed file.
   - pedigree file
   - phenotype file (optional)
 - System Pre-Requisites
@@ -14,7 +14,7 @@ Isolates this to a conda environment. VIA automates the process of variant ident
 Notes on cleaned data file:
 - Remove shifted rows from Annovar output (typically 1-10 in large file; check Otherinfo10; should all be .)
 - Add headers with sample names (from VCF file)
-- Replace all 0|1, 1|1 and 0|0 with 0/1, 1/1 and 0/0
+- Replace all `0|1`, `1|1` and `0|0` with `0/1`, `1/1` and `0/0` respectively.
 
 
 ## User Guide
@@ -98,7 +98,7 @@ For greater flexibility, there are also the following optional arguments:
 
 Any combination of these arguments can be used, and they can be chained together. For example, using all five would look like:
 
-```
+```Python
 python main.py -p <file path> -d <file path> -o <file path> -f <family name> -ph <file path>
 ```
 
