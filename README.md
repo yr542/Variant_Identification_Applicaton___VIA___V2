@@ -177,4 +177,10 @@ This is based on [ischrauwen-lab/variant-filtering](https://github.com/ischrauwe
 * This fork has a docker hub repository available here [yr542/variant_identification_application_via](https://hub.docker.com/r/yr542/variant_identification_application_via).
 * The updated stable docker image is placed as a container on Github as well.
 
+## Acknowledgements
+
+We gratefully acknowledge the contributions of:
+
+- **[Isabelle Schrauwen](https://phoenixmed.arizona.edu/isabelle-schrauwen-phd)** – Principal Investigator of our lab, providing guidance and support.  
+- **Yasmin Rajendran** – Contributor to pipeline development, documentation, and creator of the Quality Control GitHub repository.
 
