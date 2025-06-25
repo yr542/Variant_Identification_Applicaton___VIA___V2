@@ -200,4 +200,5 @@ We gratefully acknowledge the contributions of:
 
 - **[Isabelle Schrauwen](https://phoenixmed.arizona.edu/isabelle-schrauwen-phd)** – Principal Investigator of our lab, providing guidance and support.  
 - **Yasmin Rajendran** – Contributor to pipeline development, documentation, and creator of the VIA Version 2 GitHub repository.
+- **Daniel Hector Mendoza** - Contributor to the docker versions for creating a wrapper `VIA` to activate the `/via/main.py` script and placing the environment as the base in micromamba.
 
