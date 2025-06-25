@@ -17,7 +17,7 @@ The overall pipeline consists of multiple steps as outlined below:
 | Step 4: Mendelian Filtering | Perform Mendelian Filtering on variants                                                      |
 | Step 5: Post Processing  | Perform post processing                                                                      |
 | Step 6: Manual Checks                        | Conduct manual review and verification, typically performed by experts                                     |
-| **Step 7: Variant Identification Application (VIA)**   | Uses the [Variant Identification Application Version 2 (VIA V2)](https://github.com/yr542/Variant_Identification_Applicaton___VIA___V2/tree/main); for details, refer to the VIA V2 GitHub repository |
+| **Step 7: (Optional) Variant Identification Application (VIA)**   | Uses the [Variant Identification Application Version 2 (VIA V2)](https://github.com/yr542/Variant_Identification_Applicaton___VIA___V2/tree/main); for details, refer to the VIA V2 GitHub repository |
 
 We are focusing on the VIA in this repository.
 
